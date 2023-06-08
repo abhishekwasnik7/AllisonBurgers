@@ -1,0 +1,609 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+}
+#logo-color i img{
+    width: 200px;
+}
+.navbar-brand{
+    margin-left: 50px;
+    color: rgba(255,166,0);
+    font-weight: bold;
+}
+#menu-color{
+    background-color: rgba(255,166,0);
+}
+.navbar-brand:hover{
+    color: rgba(255,166,0);
+}
+#navbar-color{
+    background-color: black;
+}
+.navbar-nav{
+    margin-left: 20px;
+}
+.nav-item{
+    margin-left: 10px;
+}
+#first{
+    border-bottom: 2px solid rgba(255,166,0);
+}
+.nav-link{
+    text-decoration : none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+.nav-link:hover{
+    background-color: rgba(255,166,0);
+    box-shadow: 0 0 5px rgba(255,166,0),
+                 0 0 20px rgba(255,166,0),
+                 0 0 60px rgba(255,166,0),
+                 0 0 150px rgba(255,166,0);
+                color: black;
+}
+.dropdown-menu.show{
+    background-color: rgba(255,166,0);
+}
+a.dropdown-item{
+    font-weight: bold;
+    color: #000;
+}
+.navbar-cart{
+    justify-content: flex-end;
+}
+.main-content{
+    width: 100%;
+    height: 90vh;
+    background-image: url(images/background2.jpg);
+    background-size: cover;
+    background-position: 73%;
+    animation: slider 10s infinite linear;
+}
+
+@keyframes slider{
+    0%{ background-image: url(images/background2.jpg); }
+    35%{ background-image: url(images/background4.jpg); }
+}
+.content{
+    padding-top: 90px;
+    margin-left: 50px;
+    color: white;
+}
+.content h1{
+    font-size: 3.54rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #FF8C00;
+}
+.content h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+#btn1 button{
+    width: 200px;
+    height: 35px;
+    margin-top: 15px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    background-color: #FF8C00;
+    border: none;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+#btn1 button:hover{
+    background-color: rgba(255,166,0);
+    box-shadow: 0 0 5px rgba(255,166,0),
+                 0 0 20px rgba(255,166,0),
+                 0 0 60px rgba(255,166,0),
+                 0 0 150px rgba(255,166,0);
+}
+
+/*------------------------------------------ About us -------------------------------------*/
+
+.Who-Are-We{
+    background-color: #fff3b7;
+    padding: 30px 25px;
+}
+.container {
+    margin-top: 100px;
+}
+.content-h1{
+    text-align: center;
+    font-size: 33px;
+    font-weight: bolder;
+}
+.content-p{
+    color: #FF8C00;
+}
+
+.card-content h1{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.card-body h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: #FF8C00;
+}
+.card-content h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #FF8C00;
+}
+
+.card-content p{
+    font-size: 20px;
+}
+#btn2 button{
+    width: 200px;
+    height: 35px;
+    margin-top: 5px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    background-color: #FF8C00;
+    border: none;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+#btn2 button:hover{
+    background-color: rgba(255,166,0);
+    box-shadow: 0 0 5px rgba(255,166,0),
+                 0 0 20px rgba(255,166,0),
+                 0 0 60px rgba(255,166,0),
+                 0 0 150px rgba(255,166,0);
+}
+.contactusbanner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/conus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    margin-top: 70px
+}
+.body-container{
+    padding-top: 20px;
+    text-align: center;
+}
+#btn6{
+    display: flex;
+    justify-content: center;
+}
+#btn6 button{
+    width: 100px;
+    height: 35px;
+    margin-top: 5px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    background-color: #FF8C00;
+    border: none;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+#btn6 button:hover{
+    background-color: rgba(255,166,0);
+    box-shadow: 0 0 5px rgba(255,166,0),
+                 0 0 20px rgba(255,166,0),
+                 0 0 60px rgba(255,166,0),
+                 0 0 150px rgba(255,166,0);
+                 color: black;
+}
+
+.contact-form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+form{
+    width: 40%;
+}
+form input, form textarea{
+    overflow: hidden;
+    display: flex;
+    text-align: center;
+    width: 100%;
+    border: 0;
+    outline:none;
+    background: #fff3b7;
+    padding: 15px;
+    margin: 15px 0;
+    color: #000;
+    font-size: 1rem;
+    border-radius: 6px;
+
+}
+
+
+/*----------------------------------------------- Discount Menu ----------------------------------------*/
+
+.banner{
+    width: 100%;
+    height: 90vh;
+    background-image:url(images/discount.jpg );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    margin-top: 70px
+
+}
+.banner-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 130px;
+    text-align: center;
+}
+.banner h1{
+    font-size: 3.7rem;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 1px 5px whitesmoke;
+}
+.banner h2{
+    font-size: 2.8rem;
+    color: #FF8C00;
+    font-weight: bold;
+    text-align: center;
+}
+.change-content::after{
+    content: ' ';
+    animation: changetext 10s infinite linear;
+    color: #FF8C00;
+}
+@keyframes changetext{
+    0%{content: " FLAT 40% 0FF ";}
+    20%{content: " USE CODE 'IPL2023' ";}
+    60%{content: " COMBO STARTS @ 79rs ONLY ";}
+    80%{content: " FRIES ON ORDER < 300";}
+    100%{content: " FREE DELIVERY ON 1st ORDER ";}
+}
+#btn3{
+    text-align: center;
+}
+#btn3 button{
+    width: 200px;
+    height: 35px;
+    margin-left: 25px;
+    margin-top: 5px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    background-color: #FF8C00;
+    border: none;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+#btn3 button:hover{
+    background-color: rgba(255,166,0);
+    box-shadow: 0 0 5px rgba(255,166,0),
+                 0 0 20px rgba(255,166,0),
+                 0 0 60px rgba(255,166,0),
+                 0 0 150px rgba(255,166,0);
+}
+/*----------------------------------------------- Offers ----------------------------------------*/
+
+.offerbanner{
+    margin-top: 0;
+    width: 100%;
+    height: 90vh;
+    background-image:url(images/offerbanner2.jpg );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 30%;
+
+}
+.offerbanner-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 15%;
+    text-align: center;
+}
+.offerbanner h1{
+    font-size: 4.3rem;
+    color: rgba(255,166,0);
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 1px 5px rgb(0, 0, 0);
+}
+.offerbanner h2{
+    font-size: 3.8rem;
+    color: whitesmoke;
+    font-weight: bold;
+    text-align: center;
+}
+.offerchange-content::after{
+    content: ' ';
+    animation: changeoffertext 10s infinite linear;
+    color: whitesmoke;
+}
+@keyframes changeoffertext{
+    0%{content: " VEG-BURGER ";}
+    20%{content: " NON-VEG BURGERS ";}
+    60%{content: " DELIVERY ";}
+    80%{content: " FIRST ORDER ";}
+    100%{content: " REFFERALS ";}
+}
+.offer-container2{
+    margin-top: 50px;
+}
+.offer-container3{
+    margin-bottom: 20px;
+}
+.offerrow{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.offercard-content h2{
+    font-size: 80px;
+    font-weight: bold;
+    color: rgba(255,166,0);
+}
+.offercard-content h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+.offercard-content p{
+    font-size: 35px;
+    font-weight: bold;
+}
+.offerrow2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.offercard-body{
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+.offercard-body h2{
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #FF8C00;
+}
+
+
+
+
+/*----------------------------------------------- Allison Menu ----------------------------------------*/
+
+.new-card{
+    margin-top: 50px;
+    cursor: pointer;
+}
+.new-card h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+#btn4{
+    text-align: center;
+}
+#btn4 button{
+    width: 150px;
+    height: 35px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    border: none;
+    background-color: #FF8C00;
+    transition: 0.50s ease-in;
+    cursor: pointer;
+
+}
+#btn4 button:hover{
+    background-color: black;
+    color: white;
+}
+#btn5{
+    text-align: center;
+    margin-top: 30px;
+}
+#btn5 button{
+    width: 200px;
+    height: 35px;
+    background-color:#FF8C00;
+    border: none;
+    font-weight: bold;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+#btn5 button:hover{
+    transform: translateY(-10px);
+}
+
+
+
+/*-- Services --*/
+.container{
+    margin-bottom: 30px;
+}
+.card-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px , 1fr));
+    grid-gap: 40px;
+
+}
+.s-card{
+    position: relative;
+    overflow: hidden;
+}
+.card-img{
+    width: 100%;
+    display: block;
+    transition: tranform 0.5s;
+}
+.card-layer{
+    width: 100%;
+    height: 0;
+    background: linear-gradient(8deg, #f2630f, transparent);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 20px;
+    text-align: center;
+    transition: height 0.5s;
+}
+.s-card:hover img{
+    transform: scale(1.1);
+}
+.s-card:hover .card-layer{
+    height: 100%;
+}
+
+/*-- copyright --*/
+
+.footer{
+    padding: 5px 0;
+    background-color: black;
+}
+.footer .social{
+    text-align: center;
+    padding: 20px;
+}
+.footer .social a{
+    font-size: 26px;
+    color: white;
+    width: 30px;
+    height: 30px;
+    line-height: 20px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 5px;
+}
+.footer .social a:hover{
+    color: rgba(255,166,0);
+    transform: translateY(-5px);
+}
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    font-size: 18px;
+    list-style: none;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: rgb(99, 99, 99);
+}
+.footer ul li a:hover{
+    color: rgb(250, 250, 250);
+}
+.footer .copyright{
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(58, 58, 58);
+}
+/*------------------------------------------ locateus -------------------------------------*/
+#map-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-info{
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+}
+.contact-card{
+    background: rgba(255,166,0);
+    padding: 0 20px;
+    margin: 0 15px;
+    width: calc(33% - 20px);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+.contact-card p{
+    margin-top: 20px;
+    font-weight: 300;
+}
+.fa-solid{
+    font-size: 28px;
+    background: rgb(252, 222, 165);
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    line-height: 60px !important;
+    border-radius: 50%;
+    transition: 0.3s linear;
+}
+.contact-card:hover .fa-solid{
+    background: none;
+    color: rgb(0, 0, 0);
+    transform: scale(1.6);
+}
+.map{
+    padding: 0 7%;
+}
+@media screen and (max-width:800px) {
+    .contact-info{
+        flex-direction: column;
+    }
+    
+    .contact-card{
+        width: 100%;
+        max-width: 300px;
+        margin: 10px 0;
+    }
+}
+
+
+/*------------------------------------------ Privacy -------------------------------------*/
+.privacy-container{
+    width: 100%;
+    text-align: left;
+}
+.privacy-content{
+    width: 80%;
+}
+.privacy-p{
+    font-size: 16px;
+    padding-left: 25px;
+    line-height: 140%;
+    font-weight: 400;
+}
+.privacy-ul{
+    padding-left: 35px;
+}
+
+/*------------------------------------------ TC -------------------------------------*/
+.tc-content{
+    width: 80%;
+}
+.tc-p{
+    font-size: 16px;
+    padding-left: 25px;
+    line-height: 140%;
+    font-weight: 400;
+}
+.tc-ul{
+    padding-left: 35px;
+}
+
